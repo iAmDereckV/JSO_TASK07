@@ -16,17 +16,22 @@
 
 Hemos realizado una calculadora la cual sera modificada para agregar 6 diferentes ejercicios de los aplicados de la tarea 06
 
-1. **a**
+**DOCUMENT**
 
-2. **a**
+1. Cambiar color de fondo de la calcualadora.
+2. Cambiar color de Numeros de la calcualadora.
 
-3. **a**
+**NAVIGATOR**
 
-4. **a**
+3. Ver el navegador utilizado.
 
-5. **a**
+**FECHA Y HORA**
 
-6. **a**
+4. Ver en Un input la hora actual.
+
+**MATEAMTICA**
+
+5. uso de diferentes metodos matematicos
 
 ---
 

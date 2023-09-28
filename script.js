@@ -32,3 +32,38 @@ const btn = document
       clearDisplay();
     }
   });
+
+cambiar.addEventListener("click", () => {
+  display.style.background = fondo.value;
+  display.style.color = color.value;
+});
+verNav.addEventListener("click", () => {
+  var nombre;
+  var cpu;
+  var sistema;
+  nombre = navigator.appName;
+  cpu = navigator.cpuClass;
+  sistema = navigator.platform;
+
+  alert(
+    "Navegador: " +
+      nombre +
+      "\n" +
+      "Sistema: " +
+      sistema +
+      "\n" +
+      "Micro: " +
+      cpu
+  );
+});
+
+setTimeout("reloj()", 500);
+function reloj() {
+  var tiempo = new Date();
+  var hora = tiempo.getHours();
+  var minuto = tiempo.getMinutes();
+  var segundo = tiempo.getSeconds();
+  var textohora = hora + ":" + minuto + ":" + segundo;
+  timenow.value = textohora;
+  setTimeout("reloj()", 500);
+}
